@@ -12,7 +12,7 @@ const PostDetail = ({ post }) => {
           <Card.Title>{post.title}</Card.Title>
           <Card.Text>{post.body}</Card.Text>
           <Link href="/posts" passHref>
-            <Button type="primary">See more</Button>
+            <Button type="primary">Back</Button>
           </Link>
         </Card.Body>
       </Card>
